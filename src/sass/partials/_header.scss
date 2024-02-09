@@ -1,0 +1,16 @@
+.header {
+    background: linear-gradient(to right, #5433ff, #20bdff, #a5fecb);
+    height: 15rem;
+    width: 100%;
+
+    @include flexy(space-between, center);
+
+    &__logo {
+        margin-left: 2.5rem;
+        cursor: pointer;
+    }
+
+    &__nav {
+        margin-right: 2.5rem;
+    }
+}
